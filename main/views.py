@@ -21,6 +21,7 @@ from main.models import Product
 
 @login_required(login_url='/login')
 
+#deployyy
 # Create your views here.
 def show_main(request):
     products = Product.objects.filter(user=request.user)
